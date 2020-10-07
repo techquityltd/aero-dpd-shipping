@@ -1,0 +1,42 @@
+{
+    "name": "techquity/module-name",
+    "description": "A framework for developing Aero Commerce Modules.",
+    "authors": [
+        {
+            "name": "Andrew Clark",
+            "email": "andrew.clark@techquity.co.uk"
+        }
+    ],
+    "require": {
+        "aerocommerce/core": "^0",
+        "aerocommerce/admin": "^0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DummyNamespace\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.aerocommerce.com"
+        }
+    ],
+    "extra": {
+        "laravel" : {
+            "providers": [
+                "DummyNamespace\\Providers\\ServiceProvider"
+            ]
+        }
+    }
+}
