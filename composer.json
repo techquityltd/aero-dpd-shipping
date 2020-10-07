@@ -1,10 +1,10 @@
 {
-    "name": "techquity/module-name",
-    "description": "A framework for developing Aero Commerce Modules.",
+    "name": "techquity/aero-dpd-shipping",
+    "description": "DPD local Ship to Shop integration",
     "authors": [
         {
-            "name": "Andrew Clark",
-            "email": "andrew.clark@techquity.co.uk"
+            "name": "Owen Connor",
+            "email": "owen.connor@techquity.co.uk"
         }
     ],
     "require": {
